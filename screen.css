@@ -44,7 +44,6 @@ article {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
-    flex: 1 0 100%;
 }
 
 .header h1{
@@ -93,4 +92,42 @@ article {
 
 .heading li {
     padding: 5px;
+}
+
+.shop_page {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+    margin:20px;
+}
+
+.shop_page img {
+    float: right;
+}
+
+.billing {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    padding: 20px;
+    margin:20px;
+}
+
+.billing input {
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+#client_info {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
